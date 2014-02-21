@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Testing IMDB]]">
+  <test name="Test Case1(failed)(failed)">
+    <classes>
+      <class name="testng.Test1">
+        <methods>
+          <include name="runTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testng.Test1 -->
+    </classes>
+  </test> <!-- Test Case1(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Testing IMDB]] -->

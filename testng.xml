@@ -1,0 +1,41 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+    <test name="chrome">
+        <parameter name="platform" value="windows"></parameter>
+  		<parameter name="version" value=""></parameter>
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="url" value="http://www.imdb.com"></parameter>
+	    <parameter name="title" value="Desolation of smaug"></parameter>
+        <parameter name="year" value="2013"></parameter>
+        <classes>
+            <class name="testng.Test1" />
+        </classes>
+    </test>
+    
+    <test name="ie">
+        <parameter name="platform" value="windows"></parameter>
+        <parameter name="version" value=""></parameter>
+        <parameter name="browser" value="internet explorer"></parameter>
+        <parameter name="url" value="http://www.imdb.com"></parameter>
+	    <parameter name="title" value="Desolation of smaug"></parameter>
+	    <parameter name="year" value="2013"></parameter>
+        <classes>
+            <class name="testng.Test1" />
+        </classes>
+    </test>
+
+    <test name="firefox">
+        <parameter name="platform" value="windows"></parameter>
+        <parameter name="version" value=""></parameter>
+        <parameter name="browser" value="firefox"></parameter>
+        <parameter name="url" value="http://www.imdb.com"></parameter>
+	    <parameter name="title" value="Desolation of smaug"></parameter>
+	    <parameter name="year" value="2013"></parameter>
+        <classes>
+            <class name="testng.Test1" />
+        </classes>
+    </test>
+
+
+</suite>
