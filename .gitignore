@@ -1,2 +1,7 @@
 /target
 /bin
+/.git
+/.settings
+/test-output
+/.classpath
+/.project
