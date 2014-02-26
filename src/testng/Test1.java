@@ -33,7 +33,6 @@ public class Test1 {
 				if (browser.equalsIgnoreCase("internet explorer")) {	
 					System.setProperty("webdriver.ie.driver","D:\\Kit\\Selenium\\IEDriverServer.exe");	
 					caps = DesiredCapabilities.internetExplorer();			
-
 				}
 				if (browser.equalsIgnoreCase("chrome")) {
 					caps = DesiredCapabilities.chrome();
@@ -45,38 +44,11 @@ public class Test1 {
 				driver.get(url);
 			}
 
-		
-//    <test name="Internet Explorer">
-//    <parameter name="platform" value="windows"></parameter>
-//    <parameter name="version" value=""></parameter>
-//    <parameter name="browser" value="firefox"></parameter>
-//    <parameter name="url" value="http://www.imdb.com"></parameter>
-//
-//    <classes>
-//        <class name="testng.Test1" />
-//    </classes>
-//</test>
-	
 
-	//
-//	 <parameter name="title" value="Desolation of smaug"></parameter>
-//	 <parameter name="year" value="2013"></parameter>
-	//
-//	@DataProvider
-//	public Object[][] Data() {
-//
-//		Object[][] data = new Object[2][2];
-//
-//		data = Utils.readXLSXFile("C:\\Users\\vlad.goron\\workspace\\PageObjectProject\\src\\testng\\data.xls",0);
-//
-//		return data;
-//
-//	}
 	@Parameters({"title","year"})
-	@Test//(dataProvider = "Data")
+	@Test
 	private void runTest(String title, String year) {
 
-//		 driver.get("http://imdb.com");
 		IMDBHomePage hPage = new IMDBHomePage(driver);
 		IMDBSearchResults searchPage = hPage.searchBar(title);
 		MoviePage mvi = searchPage.getSearchResult(title, year);
