@@ -7,24 +7,6 @@
   <parameter name="year" value="2013"/>
   <parameter name="url" value="http://www.imdb.com"/>
   <parameter name="version" value=""/>
-  <test name="firefox(failed)" parallel="tests">
-    <parameter name="platform" value="windows"/>
-    <parameter name="title" value="Desolation of smaug"/>
-    <parameter name="browser" value="firefox"/>
-    <parameter name="year" value="2013"/>
-    <parameter name="url" value="http://www.imdb.com"/>
-    <parameter name="version" value=""/>
-    <classes>
-      <class name="testng.Test1">
-        <methods>
-          <include name="setup"/>
-          <include name="setup"/>
-          <include name="setup"/>
-          <include name="runTest"/>
-        </methods>
-      </class> <!-- testng.Test1 -->
-    </classes>
-  </test> <!-- firefox(failed) -->
   <test name="ie(failed)" parallel="tests">
     <parameter name="platform" value="windows"/>
     <parameter name="title" value="Desolation of smaug"/>
@@ -38,7 +20,7 @@
           <include name="setup"/>
           <include name="setup"/>
           <include name="setup"/>
-          <include name="runTest"/>
+          <include name="runTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- testng.Test1 -->
     </classes>
