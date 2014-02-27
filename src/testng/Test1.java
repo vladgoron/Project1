@@ -31,7 +31,7 @@ public class Test1 {
 					caps = DesiredCapabilities.firefox();
 				}
 				if (browser.equalsIgnoreCase("internet explorer")) {	
-					System.setProperty("webdriver.ie.driver","D:\\Kit\\Selenium\\IEDriverServer.exe");	
+					System.setProperty("webdriver.ie.driver","C:\\SeleniumGridSetup\\IEDriverServer.exe");	
 					caps = DesiredCapabilities.internetExplorer();			
 				}
 				if (browser.equalsIgnoreCase("chrome")) {
