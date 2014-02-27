@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="111017" started-at="2014-02-27T13:29:18Z" finished-at="2014-02-27T13:31:09Z">
+  <suite name="Suite" duration-ms="20893" started-at="2014-02-27T13:47:06Z" finished-at="2014-02-27T13:47:27Z">
     <groups>
     </groups>
-    <test name="chrome" duration-ms="98900" started-at="2014-02-27T13:29:18Z" finished-at="2014-02-27T13:30:57Z">
+    <test name="chrome" duration-ms="14200" started-at="2014-02-27T13:47:06Z" finished-at="2014-02-27T13:47:20Z">
       <class name="testng.Test1">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testng.Test1@f2c03ac]" name="setup" is-config="true" duration-ms="90538" started-at="2014-02-27T14:29:18Z" finished-at="2014-02-27T14:30:49Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testng.Test1@1a3174f7]" name="setup" is-config="true" duration-ms="7914" started-at="2014-02-27T14:47:06Z" finished-at="2014-02-27T14:47:14Z">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="runTest(java.lang.String, java.lang.String)[pri:0, instance:testng.Test1@f2c03ac]" name="runTest" duration-ms="8356" started-at="2014-02-27T14:30:49Z" finished-at="2014-02-27T14:30:57Z">
+        <test-method status="PASS" signature="runTest(java.lang.String, java.lang.String)[pri:0, instance:testng.Test1@1a3174f7]" name="runTest" duration-ms="6286" started-at="2014-02-27T14:47:14Z" finished-at="2014-02-27T14:47:20Z">
           <params>
             <param index="0">
               <value>
@@ -51,9 +51,9 @@
         </test-method> <!-- runTest -->
       </class> <!-- testng.Test1 -->
     </test> <!-- chrome -->
-    <test name="ie" duration-ms="106090" started-at="2014-02-27T13:29:18Z" finished-at="2014-02-27T13:31:04Z">
+    <test name="ie" duration-ms="15061" started-at="2014-02-27T13:47:06Z" finished-at="2014-02-27T13:47:21Z">
       <class name="testng.Test1">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testng.Test1@67435c4c]" name="setup" is-config="true" duration-ms="98617" started-at="2014-02-27T14:29:18Z" finished-at="2014-02-27T14:30:57Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testng.Test1@1276ff65]" name="setup" is-config="true" duration-ms="6855" started-at="2014-02-27T14:47:06Z" finished-at="2014-02-27T14:47:13Z">
           <params>
             <param index="0">
               <value>
@@ -79,7 +79,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="runTest(java.lang.String, java.lang.String)[pri:0, instance:testng.Test1@67435c4c]" name="runTest" duration-ms="7472" started-at="2014-02-27T14:30:57Z" finished-at="2014-02-27T14:31:04Z">
+        <test-method status="PASS" signature="runTest(java.lang.String, java.lang.String)[pri:0, instance:testng.Test1@1276ff65]" name="runTest" duration-ms="8165" started-at="2014-02-27T14:47:13Z" finished-at="2014-02-27T14:47:21Z">
           <params>
             <param index="0">
               <value>
@@ -97,9 +97,9 @@
         </test-method> <!-- runTest -->
       </class> <!-- testng.Test1 -->
     </test> <!-- ie -->
-    <test name="firefox" duration-ms="111017" started-at="2014-02-27T13:29:18Z" finished-at="2014-02-27T13:31:09Z">
+    <test name="firefox" duration-ms="20893" started-at="2014-02-27T13:47:06Z" finished-at="2014-02-27T13:47:27Z">
       <class name="testng.Test1">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testng.Test1@4edc8de9]" name="setup" is-config="true" duration-ms="104825" started-at="2014-02-27T14:29:18Z" finished-at="2014-02-27T14:31:03Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testng.Test1@15726ac1]" name="setup" is-config="true" duration-ms="15431" started-at="2014-02-27T14:47:06Z" finished-at="2014-02-27T14:47:21Z">
           <params>
             <param index="0">
               <value>
@@ -125,7 +125,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="runTest(java.lang.String, java.lang.String)[pri:0, instance:testng.Test1@4edc8de9]" name="runTest" duration-ms="6190" started-at="2014-02-27T14:31:03Z" finished-at="2014-02-27T14:31:09Z">
+        <test-method status="PASS" signature="runTest(java.lang.String, java.lang.String)[pri:0, instance:testng.Test1@15726ac1]" name="runTest" duration-ms="5462" started-at="2014-02-27T14:47:21Z" finished-at="2014-02-27T14:47:27Z">
           <params>
             <param index="0">
               <value>

@@ -42,6 +42,7 @@ public class Test1 {
 
 				driver = new RemoteWebDriver(new URL("http://localhost:7321/wd/hub"), caps);
 				driver.get(url);
+				driver.manage().window().maximize();
 			}
 
 
